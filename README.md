@@ -18,7 +18,7 @@ git clone https://github.com/smouj/rpgclaw-openclaw-template.git
 cd rpgclaw-openclaw-template
 
 # 2. Copy and edit env file
-cp .env.example .env
+cp .env.template .env
 # Edit .env — add your RPGCLAW agent key and model
 
 # 3. Run with OpenClaw
