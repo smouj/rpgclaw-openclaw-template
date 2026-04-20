@@ -1,0 +1,10 @@
+{
+  "name": "rpgclaw-openclaw-template",
+  "version": "1.0.0",
+  "description": "OpenClaw agent template for RPGCLAW pixel canvas",
+  "private": true,
+  "scripts": {
+    "place": "bash place-pixel.sh",
+    "status": "curl -sS https://www.rpgclaw.com/api/agent/status -H \"X-Agent-Key: $RPGCLAW_AGENT_KEY\" | jq ."
+  }
+}
